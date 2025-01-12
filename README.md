@@ -5,11 +5,11 @@ Welcome to the repository for CS23401--DATABASE-MANAGEMENT-SYSTEMS ! This reposi
 
 ## Objectives
 
-- Learn the fundamentals of Java language constructs
-- Familiarize with Object-Oriented Programming in Java
-- Explore UI creation
-- Understand parallel programming concepts
-- Develop web applications using Java
+- Design data models and schemas using ER diagrams.
+- Formulate and solve queries using SQL and relational algebra.
+- Normalize databases to reduce redundancy and anomalies.
+- Manage transactions, triggers, and recovery processes.
+- Explore advanced databases and query optimization techniques.
 
 ## Outcomes
 
@@ -25,15 +25,14 @@ functions, and procedures in a realistic database application.
 
 ## Syllabus
 
-| Unit | Name                                 | Content                                                                                                                                                                                           |
-| ------ | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.     | INTRODUCTION TO DATABASE SYSTEMS       | Introduction to Databases - File System Vs Database System - Data Models - Schemas and Instances - DBMS Architecture - Centralized - Client Server - Database Applications - ER Models – ER to Relational Mapping                                                                                  |
-| 2.    |  RELATIONAL MODELS                 |Relational Model - Constraints - Keys - Dependencies - Relational Algebra - Unary, Binary, Set and Extended Relational Algebra operations – SQL- Data Definition - Data Manipulation and Retrieval Queries - Nested Queries – Joins - Views-Cursors -Procedures – Cursors-Procedures - Triggers - Embedded and Dynamic SQL
-                               |
-| 3.   | RELATIONAL DATABASE DESIGN                 | Database Design - Functional Dependencies – Normalization - 1 NF - 2 NF - 3 NF - BCNF - Multivalued Dependency (4 NF) - Join Dependency (PJNF) |
-| 4.   | TRANSACTIONS AND RECOVERY             | Transaction processing concepts - Need for concurrency control and recovery- ACID Properties - Recoverability – Serializability - Concurrency Control - Two phase locking Techniques – Timestamp based protocol – Graph based protocol - Deadlock handling – Log based recovery – Two Phase Commit Protocol
-                                                                                                                |
-| 5.      |QUERY PROCESSING AND ADVANCED DATABASES                      | Indexing and Hashing Techniques - Query Processing and Optimization - Sorting and Joins – Database Tuning – Introduction to Spatial and Temporal Databases – OO Databases – NoSQL                                                                                                                                                                        |
+| **Unit** | **Name**                              | **Content**                                                                                                                                                                                                                  |
+|----------|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1        | INTRODUCTION TO DATABASE SYSTEMS      | Introduction to Databases - File System Vs Database System - Data Models - Schemas and Instances - DBMS Architecture (Centralized, Client-Server) - Database Applications - ER Models - ER to Relational Mapping             |
+| 2        | RELATIONAL MODELS                    | Relational Model - Constraints - Keys - Dependencies - Relational Algebra (Unary, Binary, Set, Extended operations) - SQL (Data Definition, Data Manipulation, Retrieval Queries, Nested Queries, Joins, Views) - Cursors - Procedures - Triggers - Embedded and Dynamic SQL |
+| 3        | RELATIONAL DATABASE DESIGN           | Database Design - Functional Dependencies - Normalization (1NF, 2NF, 3NF, BCNF) - Multivalued Dependency (4NF) - Join Dependency (PJNF)                                                                                     |
+| 4        | TRANSACTIONS AND RECOVERY            | Transaction Processing Concepts - Concurrency Control and Recovery - ACID Properties - Recoverability - Serializability - Two-Phase Locking - Timestamp-based Protocol - Graph-based Protocol - Deadlock Handling - Log-Based Recovery - Two-Phase Commit Protocol |
+| 5        | QUERY PROCESSING AND ADVANCED DATABASES | Indexing and Hashing Techniques - Query Processing and Optimization - Sorting and Joins - Database Tuning - Introduction to Spatial and Temporal Databases - OO Databases - NoSQL                                           |
+
 
 
 ## References
@@ -46,9 +45,10 @@ functions, and procedures in a realistic database application.
 6. Narain Gehani and Melliyal Annamalai, “The Database Book: Principles and Practice Using the Oracle Database System”, Universities Press, 2012.
 ## Web References
 
-1. [NPTEL](https://nptel.ac.in/)
-2. [GEEKS FOR GEEKS](https://www.geeksforgeeks.org/java/)
-3. [javatpoint](https://www.javatpoint.com/java-tutorial)
+
+1. [GEEKS FOR GEEKS](https://www.geeksforgeeks.org/dbms/)
+2. [Database System Concepts Slides](https://db-book.com/slides-dir/index.html)  
+3. [javatpoint](https://www.javatpoint.com/dbms-tutorial)
 
 ---
 
